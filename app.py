@@ -180,7 +180,6 @@ def handle_text(inpmessage):
     return replyObj
 
 def handle_postback(inpmessage):
-    flex = flexmessage(inpmessage)
     replyObj = TextSendMessage(text=inpmessage)
     return replyObj
 
